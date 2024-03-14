@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav{
+    width: 100%;
+    position:sticky !important;
+    left:0;
+    top:0;
+    box-shadow: 0px 5px 8px rgba(0,0,0,.5);
+    z-index: 10;
+    justify-content: space-between;
+}
+.navbar-brand{
+    font-weight: 600;
+}
+.nav-link:hover{
+    border-bottom: 1px solid white;
+}
+section{
+    min-height:100vh;   
+}
+ .navbar-nav{
+    margin-left: 40px;
+}
+.nav-item{
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+}
+.d2 h4{
+    font-size: large;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(96, 25, 163);
+}
+.d2 h1{
+    font-size: larger;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    color: rgb(96, 25, 163);
+}
+.s2{
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.d2 img{
+    position: absolute;
+    bottom: 100px;
+    margin-left: 0px;
+}
+.d3
+{
+   margin-left: 200px;
+}
+.d3 img{
+    position: absolute;
+    bottom: 530px;
+    left: 520px;
+}
+.d3 p{
+    position: absolute;
+    bottom: 420px;
+    right: 30px;
+}
+.d4 h1{
+    font-size: larger;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: rgb(96, 25, 163);
+}
+.s3{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top:1100px;
+    left: 400px;
+}
+.d4 p{
+    letter-spacing: 3px;
+    font-size: medium;
+}
+.d6{
+    width: 550px;
+    height: 460px;
+    background-color:rgb(219, 197, 240) ;
+    padding: 50px;
+    line-height: 20px;
+    margin: 20px;
+}
+.p1{
+    color:rgb(96, 25, 163);
+    letter-spacing: 3px;
+}
+.p2{
+    font-size: larger;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: lighter;
+    font-style: normal;
+    color: rgb(78, 71, 71);
+}
+.d6 button{
+    padding: 15px;
+    margin-top: 70px;
+    background-color:rgb(96, 25, 163); 
+    border-radius: 30px;
+    color: white;
+    border: none;
+    font-size: larger;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.s4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d6 button:hover{
+    background-color: rgb(219, 197, 240) !important;
+    color: rgb(96, 25, 163) !important;
+    border: 1px solid rgb(96, 25, 163) !important;
+}
+.im1{
+ margin-left: 100px;
+}
+.d8 button{
+    padding: 15px;
+    margin-top: 70px;
+    background-color:white; 
+    border-radius: 30px;
+    color: rgb(96, 25, 163);
+    border: none;
+    font-size: larger;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.d8{
+    width: 550px;
+    height: 460px;
+    background-color:rgb(96, 25, 163);
+    color: white;
+    padding: 50px;
+    line-height: 20px;
+    margin: 10px;
+}
+.d8 button:hover{
+    background-color:  rgb(96, 25, 163);
+    color:white;
+    border: 1px solid white ;
+}
+.s5{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.d7 img{
+    padding: 10px;
+    margin-left: 70px;
+}
+.p3{
+    letter-spacing: 3px;
+}
+.d9 h1{
+    font-size: larger;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: rgb(96, 25, 163);
+}
+ .p4{
+    letter-spacing: 5px;
+    font-size: medium;
+}
+.b1{
+    padding: 15px;
+    margin-top: 70px;
+    background-color:rgb(96, 25, 163); 
+    border-radius: 30px;
+    color: white;
+    border: none;
+    font-size: larger;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.b1:hover{
+    background-color:  white !important;
+    color:rgb(96, 25, 163) !important;
+    border: 1px solid  rgb(96, 25, 163) !important;
+}
+.s6{
+    margin-left: 100px;
+    margin-top: 0%;
+   
+}
+.d10{
+    width: 600px;
+    height: 460px;
+    margin-right: 120px;
+}
+.s6{
+    display: flex;
+    justify-content: space-between;
+}
+.d9{
+    width: 600px;
+    height: 460px;
+}
+.im2{
+    position: absolute;
+    bottom: 1600px;
+    width: 100%;
+}
+.s7{
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    position: absolute;
+    top: 69%;
+}
+.d12{
+ margin-right: 200px;
+ margin-left: 50px;
+}
+.d12 h1{
+    font-size: larger;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: rgb(96, 25, 163);
+}
+.s8{
+    margin-top: 170px;
+    margin-left: 110px;
+    margin-right: 150px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.d13 h1{
+    font-size: larger;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    color: rgb(96, 25, 163);
+}
+.d13 p{
+     margin-top: 200px;
+     letter-spacing: 5px;
+}
+.im4{
+   position: absolute;
+   top:81%;
+   width: 100%;
+}
+li a{
+    color: white;
+}
+li{
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 170px;
+    padding-top: 50px;
+    background-color:rgb(96, 25, 163) ;
+   
+}
+.ul1,.ul2, .ul3, .ul4{
+    list-style: none;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    line-height: 30px;
+   
+}
+.ul1 a,.ul2 a, .ul3 a, .ul4 a {
+    color: rgb(253, 246, 246);
+    line-height: 30px;
+}
+.ul1 li{
+    color: rgb(240, 231, 231);
+    line-height: 30px;
+}
+.a1 li label:hover{
+    background-color: rgb(230, 220, 220);
+}
+li a{
+    text-decoration: none;   
+}
+.bi{
+    width: 30px;
+    height:15px;
+    padding: 10px;
+    background-color: white;
+    color: rgb(96, 25, 163);
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.bi:hover{
+  border-radius: 50% !important;
+  background-color :rgb(96, 25, 163) !important;
+  border: 1px solid white !important;
+  width: 30px !important;
+  height: 30px !important;
+  color: white !important;
+}
